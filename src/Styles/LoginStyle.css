@@ -1,0 +1,110 @@
+.loginMainContainer {
+    background-image: radial-gradient(#0000006e,
+            #000000c3), url("../Assets/Netflix-bg.jpg");
+    height: 100vh;
+    color: #fff;
+    width: 100vw;
+    background-size: 130% 150%;
+}
+
+.logoOnLogin {
+    position: absolute;
+    float: left;
+    margin-left: 3rem;
+    top: 2rem;
+    height: 3.5rem;
+}
+
+.loginContainer {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #060402c4;
+    margin-bottom: 3rem;
+    padding: 60px 68px 40px;
+    border-radius: 2px;
+    width: 30vw;
+}
+
+.loginHeading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.loginInputContainer {
+    margin-bottom: 1rem;
+}
+
+
+.inp {
+    width: 100%;
+    height: 6.5vh;
+    border-radius: 6px;
+    padding: 0 1rem;
+    border: none;
+    outline: none;
+    margin-bottom: .8rem;
+    font-weight: 500;
+    font-size: 15px;
+    background: #333333;
+    color: #fff;
+    caret-color: white;
+}
+
+.inp::placeholder {
+    color: #757A80;
+}
+
+.loginBtn {
+    background: #E50914;
+    color: #f5f5f5;
+    height: 6.5vh;
+    border-radius: 6px;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.loginRememberAndHelpContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9c9fa3;
+    font-size: 14px;
+    margin-bottom: 4.5rem;
+}
+
+.loginRemember {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rememberCheckBox {
+    margin-right: .4rem;
+}
+
+.ques {
+    color: #9c9fa3;
+}
+
+.signUpNowBtn {
+    color: #fff;
+    font-weight: 500;
+}
+
+.captchaInfo {
+    font-size: 13px;
+    color: #9c9fa3;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+}
+
+.learnMore {
+    color: #2d81ee;
+}

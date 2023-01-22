@@ -1,0 +1,47 @@
+.navContainer {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    margin-left: 2rem;
+    top: -1rem;
+    height: 9.5rem;
+}
+
+.btnContainer {
+    margin-right: 3rem;
+    margin-top: 2.5rem;
+
+}
+
+.langSelection {
+    margin-right: 2.5rem;
+    padding: .7em 1.1em;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.signInBtn {
+    background: #E50914;
+    color: #fff;
+    font-size: 16px;
+    padding: .7em 1.8em;
+    line-height: normal;
+    border-radius: 4px;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.signInBtn:active{
+    transform: translateY(2px);
+}

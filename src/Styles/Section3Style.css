@@ -1,0 +1,50 @@
+.section3 {
+    position: relative;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: .5rem solid #222;
+    height: 60vh;
+    width: 100vw;
+}
+
+.downloadBox {
+    position: absolute;
+    border: 2.5px solid #808080cd;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 12px;
+    width: 23%;
+    height: 25%;
+    background: #000;
+    padding: 0 1rem;
+    bottom: 3rem;
+    left: 14rem;
+}
+
+.downloadImg {
+    height: 6em;
+    padding: .4rem .9rem .4rem 0;
+}
+
+.downloadHeading {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.downloading {
+    color: #0276f1;
+    font-weight: 400;
+    font-size: .96rem;
+}
+
+.loader {
+    height: 3.2rem;
+    margin-left: 2rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
