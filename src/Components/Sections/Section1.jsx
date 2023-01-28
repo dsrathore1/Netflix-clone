@@ -19,7 +19,7 @@ const Section1 = () => {
                             <input type="email" className="emailInput" name="email" value={getStart} onChange={(e) => { setGetStart(e.target.value); console.log(e.target.value); }} required />
                             <label>Email address</label>
                             <button className="getStartedBtn" onClick={() => {
-                                navigate("/login");
+                                navigate("/signup");
                             }}> Get Started </button>
                         </div>
                     </div>

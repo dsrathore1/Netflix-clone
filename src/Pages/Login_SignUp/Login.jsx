@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../Styles/LoginStyle.css';
 import logo from '../../Assets/Netflix-Logo.png';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className='loginMainContainer'>
@@ -21,7 +23,7 @@ const Login = () => {
             </div>
             <a href='#home'>Need help?</a>
           </div>
-          <span className='ques'>New to Netflix? <a href='#home' className='signUpNowBtn'>Sign up now</a></span>
+          <span className='ques'>New to Netflix? <a href='#home' onClick={() => { navigate(-1) }}  className='signUpNowBtn'>Sign up now</a></span>
           <p className='captchaInfo'>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a className='learnMore' href='#home'> Learn more.</a></p>
         </div>
       </div>

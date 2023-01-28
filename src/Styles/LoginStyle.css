@@ -97,6 +97,10 @@
     font-weight: 500;
 }
 
+.signUpNowBtn:hover{
+    text-decoration: underline;
+}
+
 .captchaInfo {
     font-size: 13px;
     color: #9c9fa3;
