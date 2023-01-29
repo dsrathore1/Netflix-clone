@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../../../Assets/Netflix-Logo.svg"
-import styles from './SignUpNavStyle.module.css';
+import styles from '../../../Styles/SignUpNavStyle.module.css';
 import { useNavigate } from 'react-router-dom';
 
 const SignUpNav = (props) => {

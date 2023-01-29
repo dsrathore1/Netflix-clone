@@ -1,7 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../Styles/FooterStyle.css';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+    const navigate = useNavigate();
     return (
         <div className='footerContainer'>
             <div className='footerRow'>
@@ -9,7 +12,7 @@ const Footer = () => {
                 <div className='footerColumn'>
                     <div className='column1 commonColumnStyle'>
                         <ol className='columnList1'>
-                            <li><a href='#home' className='c1'>FAQ</a></li>
+                            <li><Link onClick={() => { navigate('/Faq') }} className='c1'>FAQ</Link></li>
                             <li><a href='#home' className='c1'>Investor Relations</a></li>
                             <li><a href='#home' className='c1'>Privacy</a></li>
                             <li><a href='#home' className='c1'>Speed Test</a></li>
@@ -47,7 +50,7 @@ const Footer = () => {
                 </div>
                 <span>Netflix India</span>
             </div>
-        </div>
+        </div >
     )
 }
 

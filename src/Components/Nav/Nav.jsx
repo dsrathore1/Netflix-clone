@@ -11,7 +11,7 @@ const Nav = (props) => {
             <img className={styles.logo} src={logo} alt="#" />
             <div className={styles.navContainer}>
                 <div className={styles.btnContainer}>
-                    <select className={styles.langSelection}>
+                    <select style={{ display: props.display }} className={styles.langSelection}>
                         <option className={styles.lang}>English</option>
                         <option className={styles.lang}>Hindi</option>
                     </select>
