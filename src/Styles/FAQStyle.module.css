@@ -1,0 +1,201 @@
+/* FAQ Navbar */
+html {
+    background: white;
+}
+
+.FAQContainer {
+    background: #fff;
+    height: 100vh;
+}
+
+.FAQNavContainer {
+    height: 8.5vh;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FAQLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FAQLogo {
+    height: 1.8rem;
+    margin-left: 8.3rem;
+    margin-top: .1rem;
+    cursor: pointer;
+}
+
+.FAQDivider {
+    margin: 0 .8rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: .3rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.FAQHelpCenter {
+    font-size: 1.2rem;
+    margin-bottom: .1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.FAQHelpCenter:hover {
+    text-decoration: underline;
+}
+
+.FAQBtnContainer {
+    margin-right: 9.5rem;
+}
+
+.FAQBtn {
+    line-height: 14px;
+    padding: 8px;
+    margin-left: .9rem;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.joinNow {
+    background: transparent;
+    border: 1.5px solid #fff;
+    line-height: 14px;
+    padding: 8px;
+    margin-left: .9rem;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.joinNow:hover {
+    background: #fff;
+    color: #000;
+}
+
+.signIn {
+    font-size: 11px;
+    padding: 9px 25px;
+    border: none;
+    outline: none;
+    background: #E50914;
+    line-height: 14px;
+    padding: 8px;
+    margin-left: .9rem;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.signIn:hover {
+    background: #c10a13;
+}
+
+/* FAQ Navbar */
+
+
+/* Main Content */
+
+.FAQMainContent {
+    margin: 0 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.leftContent {
+    margin-top: 2rem;
+    width: 60vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: -4rem;
+}
+
+.image {
+    height: 30rem;
+}
+
+
+.rightContent {
+    position: relative;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.links {
+    margin-top: 1rem;
+    border-top: .5rem solid #E50914;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 4px;
+    width: 18vw;
+    padding: 16px;
+}
+
+.link1 {
+    display: flex;
+    align-items: center;
+}
+
+.link2 {
+    display: flex;
+    align-items: center;
+}
+
+.link3 {
+    display: flex;
+    align-items: center;
+}
+
+.link4 {
+    display: flex;
+    align-items: center;
+}
+
+.link5 {
+    display: flex;
+    align-items: center;
+}
+
+.realLink {
+    color: #000;
+}
+
+.backToHome {
+    display: flex;
+    align-items: center;
+    color: #E50914;
+}
+
+
+
+/* Main Content */

@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '../../../Styles/SignUpStyle.module.css';
 import SignUpNav from './SignUpNav';
 
 const SignUp = () => {
+    useEffect(() => {
+        document.title = "Netflix";
+    }, []);
 
     return (
         <>
