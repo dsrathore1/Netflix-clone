@@ -120,6 +120,7 @@ html {
 
 /* Main Content */
 
+
 .FAQMainContent {
     margin: 0 12rem;
     display: flex;
@@ -136,10 +137,34 @@ html {
     margin-left: -4rem;
 }
 
-.image {
-    height: 30rem;
+
+.backToHome {
+    display: flex;
+    align-items: center;
+    color: #E50914;
+    font-size: 15px;
+    margin-bottom: 1.7rem;
 }
 
+.backArrow {
+    height: 1rem;
+    margin-right: .6rem;
+}
+
+.heading1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.image {
+    height: 30rem;
+    margin-bottom: .5rem;
+}
+
+.heading2{
+    margin: 2.5rem 0;
+    font-size: 24px;
+}
 
 .rightContent {
     position: relative;
@@ -148,54 +173,47 @@ html {
     align-items: center;
 }
 
-
+.linkTable {
+    position: absolute;
+    bottom: 90rem;
+}
 
 .links {
     margin-top: 1rem;
     border-top: .5rem solid #E50914;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
     border-radius: 4px;
-    width: 18vw;
+    width: 21vw;
     padding: 16px;
+}
+
+.relatedHeading {
+    padding-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.realLink {
+    color: #000;
+    text-decoration: underline;
+}
+
+.realLink:hover {
+    color: #5f5f5f;
 }
 
 .link1 {
     display: flex;
     align-items: center;
+    padding: .5rem 0;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
-.link2 {
-    display: flex;
-    align-items: center;
+.pageIcon {
+    padding-right: .8rem;
 }
-
-.link3 {
-    display: flex;
-    align-items: center;
-}
-
-.link4 {
-    display: flex;
-    align-items: center;
-}
-
-.link5 {
-    display: flex;
-    align-items: center;
-}
-
-.realLink {
-    color: #000;
-}
-
-.backToHome {
-    display: flex;
-    align-items: center;
-    color: #E50914;
-}
-
-
 
 /* Main Content */
